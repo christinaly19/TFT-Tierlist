@@ -1,0 +1,206 @@
+mark {
+    background-color: #DDA7A7;
+    opacity: 0.75
+}
+
+body{
+    background: url(images/ranked-reward-celebration.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#tierlist {
+    height: 110vh;
+    display: flex;
+    flex-direction:column;
+    background-color: #6C639D;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    float: left;
+    opacity: 0.8
+}
+
+.tier {
+    height: 80px;
+    display: flex;
+    width: 100%;
+    background-color:#8176BB;
+    opacity: 1;
+}
+
+.label {
+    height: 100%;
+    width: 15%;
+    background-color: #FCE7C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.champcard {
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3EEFD;
+    margin-left: 0.5rem;
+
+}
+
+.btn {
+    color: #e9bccb;
+
+    border-color: #e9bccb;
+    }
+
+button.btn:hover {
+    background-color: #9B4A84 !important; 
+}
+
+#cardbank {
+    wdith: 50vw;
+    height: 110vh;
+    background-color: #BFCAFF;
+    float: right;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    background: rgb(3,1,61);
+background: linear-gradient(180deg, rgba(3,1,61,1) 0%, rgba(77,58,190,1) 47%, rgba(118,91,208,1) 64%, rgba(240,181,209,1) 100%);
+}
+
+#wrapper {
+    overflow: hidden;
+    width:98vw;
+}
+
+.A { 
+    float: left;
+    text-align: left;
+}
+.B { 
+    float: right;
+    text-align: right;
+}
+
+#one {
+    background-image: url('images/1.png')
+}
+
+#two{
+    background-image:url('images/2.png')
+}
+
+#three{
+    background-image:url('images/3.png')
+}
+
+#four{
+    background-image:url('images/4.png')
+}
+
+#five{
+    background-image:url('images/5.png')
+}
+
+#six{
+    background-image:url('images/6.png')
+}
+
+#seven{
+    background-image:url('images/7.png')
+}
+
+#eight{
+    background-image:url('images/8.png')
+}
+
+#nine{
+    background-image:url('images/9.png')
+}
+
+#ten{
+    background-image:url('images/10.png')
+}
+
+#eleven{
+    background-image:url('images/11.png')
+}
+
+#twelve{
+    background-image:url('images/12.png')
+}
+
+#thirteen{
+    background-image:url('images/13.png')
+}
+
+#fourteen{
+    background-image:url('images/14.png')
+}
+
+#fifteen{
+    background-image:url('images/15.png')
+}
+
+#sixteen{
+    background-image:url('images/16.png')
+}
+
+#seventeen{
+    background-image:url('images/17.png')
+}
+
+#eightteen{
+    background-image:url('images/18.png')
+}
+
+#nineteen{
+    background-image:url('images/19.png')
+}
+
+#twenty{
+    background-image:url('images/20.png')
+}
+
+#twenty-1{
+    background-image:url('images/21.png')
+}
+
+#twenty-2{
+    background-image:url('images/22.png')
+}
+
+#twenty-3{
+    background-image:url('images/23.png')
+}
+
+#twenty-4{
+    background-image:url('images/24.png')
+}
+#twenty-5{
+    background-image:url('images/25.png')
+}
+#twenty-6{
+    background-image:url('images/26.png')
+}
+#twenty-7{
+    background-image:url('images/27.png')
+}
+#twenty-8{
+    background-image:url('images/28.png')
+}
+#twenty-9{
+    background-image:url('images/29.png')
+}
+#thirty{
+    background-image:url('images/30.png')
+}
+#thirty-1{
+    background-image:url('images/31.png')
+}
+#thirty-2{
+    background-image:url('images/32.png')
+}

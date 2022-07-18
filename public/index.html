@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "./styles.css">
+    <title>TFT Set 7 Tier List</title>
+</head>
+  <body>
+
+    <navbar></navbar>
+
+    <h1 class = "pt-4 pl-4 pr-4" > <mark>TFT Dragonlands Tier List Creator [Set 7] </mark> </h1>
+    <p1 class = "pl-4" style = "color:#c7a3af "><small> This tier list was originally designed for TFT Set 7 [June 2022 - September]. Drag & drop to rank, add new card by uploading an image, and click on cards to delete.
+    <br class = "pl-4">
+    </small></p1>
+    
+
+<div id = wrapper> 
+    <div class="A">
+    <button class = "btn btn-outline-primary m-2" id = "addCard"> + Add New Card</button>
+    <button class = "btn btn-outline-primary m-2" id ="screenshot"> ↓ Download Your Tier list</button>
+    <a href = "index.html"><button class = "btn btn-outline-primary m-2" id ="screenshot"> ↻ Reset </button></a>
+    </div>
+    <div class = "B">
+    <h3 style = "color: #e9bccb"> <small> Your TFT Cards Bank:&nbsp &nbsp </small></h3>
+    </div>
+</div>
+
+<div id = "wrapper">
+<div style = "width: 25vw" id = "cardbank">
+    <div class ="champcard" draggable = "true" id = "one">  </div> 
+    <div class = "champcard" draggable = "true" id = "two">  </div> 
+    <div class = "champcard" draggable = "true" id = "three">  </div> 
+    <div class = "champcard" draggable = "true" id = "four">  </div>
+    <div class = "champcard" draggable = "true" id = "five"> </div> 
+    <div class = "champcard" draggable = "true" id = "six">  </div> 
+    <div class = "champcard" draggable = "true" id = "seven">  </div> 
+    <div class = "champcard" draggable = "true" id = "eight">  </div> 
+    <div class = "champcard" draggable = "true" id = "nine">  </div> 
+    <div class = "champcard" draggable = "true" id = "ten">  </div> 
+    <div class = "champcard" draggable = "true" id = "eleven"> </div> 
+    <div class = "champcard" draggable = "true" id = "twelve">  </div> 
+    <div class = "champcard" draggable = "true" id = "thirteen">  </div> 
+    <div class = "champcard" draggable = "true" id = "fourteen">  </div> 
+    <div class = "champcard" draggable = "true" id = "fifteen">  </div> 
+    <div class = "champcard" draggable = "true" id = "sixteen">  </div> 
+    <div class = "champcard" draggable = "true" id = "seventeen">  </div> 
+    <div class = "champcard" draggable = "true" id = "eightteen">  </div> 
+    <div class = "champcard" draggable = "true" id = "nineteen">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-1">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-2">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-3">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-4">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-5">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-6">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-7">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-8">  </div> 
+    <div class = "champcard" draggable = "true" id = "twenty-9">  </div> 
+    <div class = "champcard" draggable = "true" id = "thirty">  </div> 
+    <div class = "champcard" draggable = "true" id = "thirty-1">  </div> 
+    <div class = "champcard" draggable = "true" id = "thirty-2">  </div> 
+</div>
+
+    <div id = "tierlist" style = "width: 70vw">
+        <div class = "tier"> 
+        <div class = "label ml-2" style = "background-color: #F07E7D"> S Tier </div>
+        </div>
+  
+        <div class = "tier">
+            <div class = "label ml-2"  style = "background-color: #F7BE7E" > A Tier </div>
+        </div>
+
+        <div class = "tier">
+            <div class = "label ml-2" style = "background-color: #FCDF7F"> B Tier </div>
+        </div>
+ 
+        <div class = "tier">
+            <div class = "label ml-2" style = "background-color: #BDF67E"> C Tier </div>
+        </div>
+
+        <div class = "tier">
+            <div class = "label ml-2" style = "background-color: #7FBFF9"> D Tier </div> 
+        </div>
+
+        <div class = "tier">
+            <div class = "label ml-2" style = "background-color: #807FF7"> F Tier </div> 
+        </div>
+    </div>
+</div>
+
+<script>
+var $btn = document.getElementById('screenshot');
+$btn.addEventListener('mousedown', onScreenShotClick);
+
+
+function onScreenShotClick(event){
+  html2canvas(document.querySelector("#tierlist")).then(canvas => {
+    document.getElementById('frame').appendChild(canvas)
+  });
+}
+</script>
+
+<div>
+    <br>
+    <h2 class = "ml-2"><mark>Share Your Tierlist:</mark> </h2>
+    <p1 class = "ml-2" style = "color: #c7a3af"> <small> After clicking "download", a savable screenshot of your tierlist will appear below:</small></p1>
+    <div style = "width: 50%" id = "frame"></div>
+</div>
+  </body>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src ="tiers.js" ></script>
+        <script src = "cards.js"></script>
+        <script src = "bank.js"></script>
+        <script src= "https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"> </script>
